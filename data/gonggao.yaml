@@ -1,0 +1,45 @@
+---
+tests:
+- case: "发布公告成功"
+  http:
+    method: POST
+    path: /v1/SqNotice/add
+    data:
+      title: 88
+      content: 88
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+  expected:
+    response:
+      code: 200
+      msg: "添加成功"
+  sql:
+- case: "发布公告失败-标题为空"
+  http:
+    method: POST
+    path: /v1/SqNotice/add
+    data:
+      title:
+      content: 1
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+  expected:
+    response:
+      code: 0
+      msg: "请输入名称"
+- case: "发布公告失败-内容为空"
+  http:
+    method: POST
+    path: /v1/SqNotice/add
+    data:
+      title: 1
+      content:
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+  expected:
+    response:
+      code: 0
+      msg: "请输入内容"

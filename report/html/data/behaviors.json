@@ -1,0 +1,61 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试公告接口",
+    "children" : [ {
+      "name" : "test_login[发布公告]",
+      "uid" : "5a1f31cd86d69c46",
+      "parentUid" : "8c00f72042596831220774083c387b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611817479781,
+        "stop" : 1611817480081,
+        "duration" : 300
+      },
+      "flaky" : false,
+      "parameters" : [ "'发布公告'", "{'response': {'msg': '添加成功', 'code': 200}}", "{'path': '/v1/SqNotice/add', 'data': {'content': 1, 'title': 1}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}" ]
+    } ],
+    "uid" : "8c00f72042596831220774083c387b06"
+  }, {
+    "name" : "测试登录接口",
+    "children" : [ {
+      "name" : "test_login[登录成功]",
+      "uid" : "bac4266a64a5eafc",
+      "parentUid" : "7fe11a31ff33c6c5e496621456182afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611817480085,
+        "stop" : 1611817480240,
+        "duration" : 155
+      },
+      "flaky" : false,
+      "parameters" : [ "'登录成功'", "{'response': {'msg': '登陆成功', 'code': 10000}}", "{'path': '/v1/index/check_login', 'data': {'password': 123123, 'username': 'as123'}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}" ]
+    }, {
+      "name" : "test_login[登录失败-密码错误]",
+      "uid" : "69cc990a77c37248",
+      "parentUid" : "7fe11a31ff33c6c5e496621456182afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611817480244,
+        "stop" : 1611817480396,
+        "duration" : 152
+      },
+      "flaky" : false,
+      "parameters" : [ "'登录失败-密码错误'", "{'response': {'msg': '账号或者密码有误', 'code': 10006}}", "{'path': '/v1/index/check_login', 'data': {'password': 12312, 'username': 'as123'}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}" ]
+    }, {
+      "name" : "test_login[登录失败-账号错误]",
+      "uid" : "c786e1ceb54b2b59",
+      "parentUid" : "7fe11a31ff33c6c5e496621456182afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611817480399,
+        "stop" : 1611817480559,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "parameters" : [ "'登录失败-账号错误'", "{'response': {'msg': '账号或者密码有误', 'code': 10006}}", "{'path': '/v1/index/check_login', 'data': {'password': 12312, 'username': 'as123'}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}" ]
+    } ],
+    "uid" : "7fe11a31ff33c6c5e496621456182afe"
+  } ]
+}

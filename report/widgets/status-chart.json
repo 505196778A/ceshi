@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d3a7657e33e902a3",
+  "name" : "test_login[登录成功]",
+  "time" : {
+    "start" : 1611715611760,
+    "stop" : 1611715612231,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ce98901e03bf9f3",
+  "name" : "test_login[登录失败-密码错误]",
+  "time" : {
+    "start" : 1611715612236,
+    "stop" : 1611715612392,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9379b045fb9ae2d9",
+  "name" : "test_login[登录失败-账号错误]",
+  "time" : {
+    "start" : 1611715612397,
+    "stop" : 1611715612564,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

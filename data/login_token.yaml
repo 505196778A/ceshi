@@ -1,0 +1,18 @@
+---
+tests:
+- case: "登录接口"
+  http:
+    method: POST
+    path: /v1/index/check_login
+    data:
+      username: as123
+      password: 123123
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+  expected:
+    response:
+      code: 10000
+      msg: "登陆成功"
+
+

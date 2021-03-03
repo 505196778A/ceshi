@@ -1,0 +1,1 @@
+sql: select * from lh_sq_gg_notice where title = 88 and content = 88

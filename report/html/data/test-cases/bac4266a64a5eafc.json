@@ -1,0 +1,90 @@
+{
+  "uid" : "bac4266a64a5eafc",
+  "name" : "test_login[登录成功]",
+  "fullName" : "tests.test_login.TestLogin#test_login",
+  "historyId" : "2e73c6791fb7465efc4d14e23766f07a",
+  "time" : {
+    "start" : 1611817480085,
+    "stop" : 1611817480240,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1611817479288,
+      "stop" : 1611817479289,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190628NNQ"
+  }, {
+    "name" : "thread",
+    "value" : "18652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'登录成功'"
+  }, {
+    "name" : "expected",
+    "value" : "{'response': {'msg': '登陆成功', 'code': 10000}}"
+  }, {
+    "name" : "http",
+    "value" : "{'path': '/v1/index/check_login', 'data': {'password': 123123, 'username': 'as123'}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "88ee8888602fa6e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611715611760,
+        "stop" : 1611715612231,
+        "duration" : 471
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bac4266a64a5eafc.json",
+  "parameterValues" : [ "'登录成功'", "{'response': {'msg': '登陆成功', 'code': 10000}}", "{'path': '/v1/index/check_login', 'data': {'password': 123123, 'username': 'as123'}, 'headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}, 'method': 'POST'}" ]
+}

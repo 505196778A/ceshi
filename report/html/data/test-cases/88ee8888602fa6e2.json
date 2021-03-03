@@ -1,0 +1,96 @@
+{
+  "uid" : "88ee8888602fa6e2",
+  "name" : "test_login[登录成功]",
+  "fullName" : "tests.test_login.TestLogin#test_login",
+  "historyId" : "2e73c6791fb7465efc4d14e23766f07a",
+  "time" : {
+    "start" : 1611715611760,
+    "stop" : 1611715612231,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1611715611757,
+      "stop" : 1611715611758,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95d7e3009871a1a4",
+      "name" : "stdout",
+      "source" : "95d7e3009871a1a4.txt",
+      "type" : "text/plain",
+      "size" : 477
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190628NNQ"
+  }, {
+    "name" : "thread",
+    "value" : "16712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'登录成功'"
+  }, {
+    "name" : "expected",
+    "value" : "{'response': {'code': 10000, 'msg': '登陆成功'}}"
+  }, {
+    "name" : "http",
+    "value" : "{'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}, 'data': {'username': 'as123', 'password': 123123}, 'path': '/v1/index/check_login'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88ee8888602fa6e2.json",
+  "parameterValues" : [ "'登录成功'", "{'response': {'code': 10000, 'msg': '登陆成功'}}", "{'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}, 'data': {'username': 'as123', 'password': 123123}, 'path': '/v1/index/check_login'}" ]
+}

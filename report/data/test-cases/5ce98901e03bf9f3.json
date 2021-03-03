@@ -1,0 +1,98 @@
+{
+  "uid" : "5ce98901e03bf9f3",
+  "name" : "test_login[登录失败-密码错误]",
+  "fullName" : "tests.test_login.TestLogin#test_login",
+  "historyId" : "f5fa85886005ac3f423bc0e7631a4f57",
+  "time" : {
+    "start" : 1611715612236,
+    "stop" : 1611715612392,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1611715611757,
+      "stop" : 1611715611758,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6fe76a03adac174",
+      "name" : "stdout",
+      "source" : "b6fe76a03adac174.txt",
+      "type" : "text/plain",
+      "size" : 63
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试登录接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20190628NNQ"
+  }, {
+    "name" : "thread",
+    "value" : "16712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'登录失败-密码错误'"
+  }, {
+    "name" : "expected",
+    "value" : "{'response': {'code': 10006, 'msg': '账号或者密码有误'}}"
+  }, {
+    "name" : "http",
+    "value" : "{'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}, 'data': {'username': 'as123', 'password': 12312}, 'path': '/v1/index/check_login'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ce98901e03bf9f3.json",
+  "parameterValues" : [ "'登录失败-密码错误'", "{'response': {'code': 10006, 'msg': '账号或者密码有误'}}", "{'method': 'POST', 'headers': {'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'}, 'data': {'username': 'as123', 'password': 12312}, 'path': '/v1/index/check_login'}" ]
+}

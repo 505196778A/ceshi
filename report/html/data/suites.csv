@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.test_login.TestLogin#test_login","152",""
+"passed","tests.test_gonggao.TestLogin#test_login","300",""
+"passed","tests.test_login.TestLogin#test_login","155",""
+"passed","tests.test_login.TestLogin#test_login","160",""
